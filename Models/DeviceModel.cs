@@ -1,6 +1,6 @@
 ﻿namespace MonitoringService.Models
 {
-    public abstract class DeviceModel
+    public class DeviceModel
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
